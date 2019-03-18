@@ -1,0 +1,31 @@
+{
+  "name": "boilerplate-node-babel-vscode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "jest",
+    "build-watch": "npm run build-once -- --watch",
+    "build": "babel src -d build --source-maps --ignore  **/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "transform": {
+      "^.+\\.js?$": "babel-jest"
+    }
+  },
+  "dependencies": {
+    "apollo-server": "^2.3.3",
+    "graphql": "^14.1.1",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/core": "^7.3.3",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0"
+  }
+}

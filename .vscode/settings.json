@@ -1,0 +1,13 @@
+{
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "all",
+  "files.insertFinalNewline": true,
+  "editor.tabSize": 4,
+  "files.trimTrailingWhitespace": true,
+  "files.autoSave": "onFocusChange",
+  "javascript.format.insertSpaceAfterConstructor": false,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "npm.autoDetect": "on",
+  "workbench.editor.showTabs": true,
+}
